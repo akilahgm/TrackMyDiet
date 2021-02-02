@@ -2,53 +2,53 @@ server:
   port: 1024
 
 db:
-  type: ''
+  type: 'postgres'
   port: 5432
-  database: ''
-  host: ''
-  username: ''
-  password: ''
+  database: 'postgres'
+  host: '143.110.186.112'
+  username: 'tmd_admin'
+  password: 'lassanakolla123'
   synchronize: true
 
 jwt:
   expiresIn: 21600
-  secret: ''
-  refreshSecret: ''
+  secret: 'topSecret51'
+  refreshSecret: 'topSecret52'
 
 ideamart:
-  baseurl: ''
-  id: ''
-  password: ''
+  baseurl: 'https://api.dialog.lk'
+  id: 'APP_059278'
+  password: '174fc2ff9014e2ee4b6603ea8f5d880e'
   applicationMetaData:
-    client: ''
-    device: ''
-    os: ''
-    appCode: ''
+    client: 'MOBILEAPP'
+    device: 'Samsung S10'
+    os: 'android8'
+    appCode: 'https://play.google.com/store/apps/details?id=com.zeesolutions.trackmydiet'
 
 mSpace:
-  baseurl: ''
-  id: ''
-  password: ''
+  baseurl: 'https://api.mspace.lk'
+  id: 'APP_059278'
+  password: '174fc2ff9014e2ee4b6603ea8f5d880e'
   applicationMetaData:
-    client: ''
-    device: ''
-    os: ''
-    appCode: ''
+    client: 'MOBILEAPP'
+    device: 'Samsung S10'
+    os: 'android8'
+    appCode: 'https://play.google.com/store/apps/details?id=com.zeesolutions.trackmydiet'
 
 app:
-  id: ''
-  password: ''
+  id: 'APP_059278'
+  password: '174fc2ff9014e2ee4b6603ea8f5d880e'
   applicationMetaData:
-    client: ''
-    device: ''
-    os: ''
-    appCode: ''
+    client: 'MOBILEAPP'
+    device: 'Samsung S10'
+    os: 'android8'
+    appCode: 'https://play.google.com/store/apps/details?id=com.zeesolutions.trackmydiet'
 
 aws:
-  bucketName: ''
-  endPoint: ''
+  bucketName: 'track-my-diet'
+  endPoint: 'ams3.digitaloceanspaces.com'
 
 admin:
-  telNo: ''
-  password: ''
+  telNo: '00000000000'
+  password: 'diet_my_track_ad'
   tokenValidity: 43200
